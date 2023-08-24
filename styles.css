@@ -1,0 +1,118 @@
+/* Establece el color de fondo y elimina el margen y el relleno predeterminados del cuerpo del documento */
+body {
+    background-color: #D2DEEA;
+    margin: 0;
+    padding: 0;
+}
+
+/* Establece el color del texto de los títulos en la clase 'container' */
+.container h3 {
+    color: #4C99E6;
+}
+
+/* Define el estilo de la clase 'container' que contiene todo el contenido */
+.container {
+    width: 90%; /* Establece el ancho máximo del contenedor al 90% del ancho de la ventana */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    display: flex; /* Utiliza el modelo de caja flexible para organizar los elementos internos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan cuando el ancho de la ventana es pequeño */
+}
+
+/* Estilo para la sección de datos personales */
+.datos {
+    color: #000000;
+    padding: 1%;
+    background-color: #3B77B3;
+    width: 20%;
+}
+
+/* Estilo para la imagen dentro de la clase 'datos' */
+.datos img {
+    width: 70%;
+    border-radius: 20px; /* Agrega bordes redondeados a la imagen */
+    border: 1px solid black; /* Agrega un borde sólido de 1px a la imagen */
+    display: block; /* Hace que la imagen sea un bloque y la centra horizontalmente */
+    margin: 0 auto;
+}
+
+/* Elimina los puntos de lista en los elementos de lista dentro de 'datos_personales' */
+.datos_personales li {
+    list-style-type: none;
+}
+
+/* Estilo común para las secciones 'datos_personales', 'habilidades', 'perfil', 'formacion' y 'experiencia' */
+/* Agrega un borde inferior a estas secciones */
+.datos_personales,
+.habilidades,
+.perfil,
+.formacion,
+.experiencia {
+    border-bottom: 1px solid black;
+}
+
+/* Estilo para la sección de estudios */
+.estudios {
+    font-size: 20px;
+    padding: 5%;
+    font-style: italic;
+    flex: 1; /* Usa espacio disponible de manera flexible */
+    border: 1px solid black; /* Agrega un borde sólido de 1px alrededor de la sección */
+}
+
+/* Estilo para el texto dentro de la sección de estudios */
+.estudios p {
+    text-align: justify; /* Justifica el texto */
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto en el footer */
+    padding: 20px 0; /* Espaciado interno en el footer */
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+/* Estilo para el contenido dentro del footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    flex-wrap: wrap;
+    max-width: 1200px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centra el contenido horizontalmente dentro del footer */
+}
+
+/* Estilo para las secciones dentro del footer */
+.footer h3 {
+    font-size: 18px; /* Tamaño del texto de los títulos */
+    margin-bottom: 10px; /* Margen inferior de los títulos */
+}
+
+/* Estilo para el texto dentro del footer */
+.footer p {
+    font-size: 14px; /* Tamaño del texto del párrafo */
+}
+
+/* Estilo para los íconos de redes sociales */
+.redes-sociales a {
+    color: #ffffff; /* Color de los íconos */
+    font-size: 20px; /* Tamaño de los íconos */
+    margin-right: 10px; /* Margen derecho entre los íconos */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* Estilo para el enlace de derechos de autor */
+.derechos-de-autor p {
+    font-size: 14px; /* Tamaño del texto del párrafo */
+}
+
+/* Estilo para los enlaces de derechos de autor */
+.derechos-de-autor a {
+    color: #fff; /* Color de los enlaces de derechos de autor */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
+}
+
+/* Estilo para los enlaces de derechos de autor al pasar el cursor sobre ellos */
+.derechos-de-autor a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el cursor sobre él */
+}
